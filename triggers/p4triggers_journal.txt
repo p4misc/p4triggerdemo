@@ -1,0 +1,4 @@
+	test_journal_rotate-lock_any journal-rotate-lock any "/opt/perforce/triggers/journal-rotate-lock/journal_rotate-lock_any.sh %user%"
+	test_journal_rotate-lock_commit journal-rotate-lock commit "/opt/perforce/triggers/journal-rotate-lock/journal_rotate-lock_commit.sh %user%"
+	test_journal_rotate_any journal-rotate any "/opt/perforce/triggers/journal-rotate/journal_rotate_any.sh %user%"
+	test_journal_rotate_commit journal-rotate commit "/opt/perforce/triggers/journal-rotate/journal_rotate_commit.sh %user%"

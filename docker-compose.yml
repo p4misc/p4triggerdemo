@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  trigger_demo:
+    build: .
+    image: trigger_demo
+    container_name: trigger_demo
+    ports:
+      - 1666:1666

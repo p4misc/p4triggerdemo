@@ -1,0 +1,2 @@
+	test_fix_add fix-add fix "/opt/perforce/triggers/fix-add/fix_add.sh %user%"
+	test_fix_delete fix-delete fix "/opt/perforce/triggers/fix-delete/fix_delete.sh %user%"
