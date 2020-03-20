@@ -1,9 +1,9 @@
 version: '3.7'
 
 services:
-  trigger_demo:
+  p4triggerdemo:
     build: .
-    image: trigger_demo
-    container_name: trigger_demo
+    image: p4triggerdemo
+    container_name: p4triggerdemo
     ports:
       - 1666:1666
