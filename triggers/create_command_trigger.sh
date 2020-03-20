@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TRIGGER_TYPES="command"
-TRIGGER_PATHS="sync edit open undo copy"
+TRIGGER_PATHS="sync branch change add edit open undo merge copy integrate"
 TRIGGER_PARAMS="%user%"
 
 {
